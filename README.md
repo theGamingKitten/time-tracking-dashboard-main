@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live](https://your-live-site-url.com)
+- [Solution](https://github.com/theGamingKitten/time-tracking-dashboard-main)
+- [Live](https://time-tracking-dashboard-main-jade.vercel.app/)
 
 ## My process
 
