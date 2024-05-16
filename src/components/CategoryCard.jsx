@@ -16,12 +16,12 @@ export default function CategoryCard({category, bgColor, bgImage, data, timefram
       }
     return (
         <>
-        <div className={`${bgColor} ${bgImage} pt-8 bg-no-repeat bg-right-top flex flex-col justify-end rounded-lg h-13 hover:cursor-pointer`}>                          
-            <div className='bg-dark-blue hover:brightness-150 rounded-lg grid grid-cols-2 grid-rows-2 p-6 gap-x-8 items-center justify-between'>
-                <span className='font-normal'>{category}</span>
-                <img className='justify-self-end hover:cursor-pointer' src={dotsSvg}/>
-                <span className='text-3xl font-light'>{currentValue}hrs</span>
-                <span className='text-pale-blue text-xs justify-self-end'>Last Week - {previousValue}hrs</span>
+        <div className={`${bgColor} ${bgImage} pt-8 bg-no-repeat bg-right-top flex flex-col justify-end rounded-xl h-13 hover:cursor-pointer`}>                          
+            <div className='bg-dark-blue hover:brightness-150 rounded-xl grid grid-cols-2 grid-rows-2 p-6 gap-x-12 justify-between md:grid-cols-1 md:grid-rows-3'>
+                <span className='font-normal md:mb-3 md:text-sm'>{category}</span>
+                <span className='hover:cursor-pointer justify-self-end md:row-start-1 md:row-span-3'><img src={dotsSvg}/></span>
+                <span className='text-3xl font-light md:text-4xl'>{currentValue}hrs</span>
+                <span className='text-pale-blue text-base font-light whitespace-nowrap self-center md:text-sm'>Last Week - {previousValue}hrs</span>
             </div>
         </div>
         </>

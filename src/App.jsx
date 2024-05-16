@@ -11,7 +11,7 @@ export default function App() {
   
   return (
     <>
-      <main className='grid gap-5 md:grid-flow-row md:grid-cols-4'>
+      <main className='grid gap-7 w-[95%] m-auto md:grid-flow-row md:grid-cols-4'>
         <ProfileCard
           imgSrc={imgSrc}
           fullName="Jeremy Robson"

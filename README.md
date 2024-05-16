@@ -48,15 +48,15 @@ Users should be able to:
 
 ### What I learned
 
--
+- That I can finish any challenge even if I need a longer break
 
 ### Continued development
 
--
+- Focus more on getting the final product to look as close to the given design as possible. Had to rush this because I just wanted to finish this challenge after a long break and not give up
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Needed to use this a lot in this challenge as I still struggle with grid layouts
 
 ## Author
 
