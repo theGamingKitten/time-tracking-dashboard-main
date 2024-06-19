@@ -1,4 +1,5 @@
 import dotsSvg from '../assets/icon-ellipsis.svg';
+import CountUp from 'react-countup';
 
 export default function CategoryCard({category, bgColor, bgImage, data, timeframe }) {
     let currentValue = data.timeframes.daily.current;
@@ -20,8 +21,8 @@ export default function CategoryCard({category, bgColor, bgImage, data, timefram
             <div className='bg-dark-blue hover:brightness-150 rounded-xl grid grid-cols-2 grid-rows-2 p-6 gap-x-12 justify-between md:grid-cols-1 md:grid-rows-3'>
                 <span className='font-normal md:mb-3 md:text-sm'>{category}</span>
                 <span className='hover:cursor-pointer justify-self-end md:row-start-1 md:row-span-3'><img src={dotsSvg}/></span>
-                <span className='text-3xl font-light md:text-4xl'>{currentValue}hrs</span>
-                <span className='text-pale-blue text-base font-light whitespace-nowrap self-center md:text-sm'>Last Week - {previousValue}hrs</span>
+                <span className='text-3xl font-light md:text-4xl'><CountUp end={currentValue} suffix="hrs"/></span>
+                <span className='text-pale-blue text-base font-light whitespace-nowrap self-center md:text-sm'><CountUp end={previousValue} prefix="Last Week - " suffix="hrs"/></span>
             </div>
         </div>
         </>

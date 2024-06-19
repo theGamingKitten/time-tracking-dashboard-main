@@ -57,6 +57,7 @@ Users should be able to:
 ### Useful resources
 
 - [Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - Needed to use this a lot in this challenge as I still struggle with grid layouts
+- [React CountUp](https://www.npmjs.com/package/react-countup) - For the animated numbers
 
 ## Author
 
